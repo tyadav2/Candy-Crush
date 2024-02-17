@@ -1,0 +1,107 @@
+/* Copyright (c) 2017 MIT 6.813/6.831 course staff, all rights reserved.
+ * Redistribution of original or derived work requires permission of course staff.
+ */
+
+ #mainColumn {
+   background-color: #595b83;
+   outline: 1px dashed orange;
+   height: 200px;
+ }
+ #firstColumn {
+   background-color: #f4abc4;
+   outline: 1px dashed green;
+ }
+ #lastColumn {
+   background-color: #f4abc4;
+   outline: 1px dashed blue;
+ }
+
+ /* Your css code here! */
+ .title{
+   color: #595b83;
+ }
+
+ .bold {
+   font-weight: bold;
+ }
+
+ .col-center{
+   margin: 0 auto;
+ }
+
+ .vert-center {
+   min-height: 100%;
+   min-height: 100vh;
+
+   display: flex;
+   align-items: center;
+ }
+
+ #gameTable {
+   border-spacing: 5px;
+ }
+
+ .candy {
+   text-align: center;
+   border: 1px solid #A0A0A0;
+ }
+
+ .yellowCandy {
+   color: #A0A0A0;
+ }
+
+ .otherCandies {
+   color: white;
+ }
+
+ .emptyCandy {
+   color: black;
+ }
+
+ #cell {
+   font-size: 32px;
+ }
+
+ .key {
+   width: 60px;
+   border: 1px solid white;
+   border-radius: 10px;
+ }
+
+ .arrow-disabled {
+   background-color: #CBD0D8;
+   text-align: center;
+   color: gray;
+   cursor: not-allowed;
+ }
+
+ .arrow-enabled {
+   background-color: #595b83;
+   text-align: center;
+   color: white;
+   cursor: default;
+ }
+
+ .btn-crushes {
+   background-color: #595b83;
+   color: white;
+   text-align: center;
+ }
+
+ .btn-crushes:disabled{
+   background-color: #CBD0D8;
+   color:gray;
+   cursor:not-allowed;
+   text-align: center;
+ }
+
+ .btn-crushes:focus {
+   background-color: #595b83;
+   color: white;
+   cursor:not-allowed;
+   text-align: center;
+ }
+
+ .empty {
+   background-color: white;
+ }
